@@ -1,7 +1,7 @@
 import edu.princeton.cs.algs4.StdOut;
 
 public class QuickUnion {
-    private int[] id;
+    private final int[] id;
 
     public QuickUnion(int N) {
         id = new int[N];
